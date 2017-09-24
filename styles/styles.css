@@ -122,6 +122,9 @@ header {
 	.page_content {
 		max-width: 950px;
 	}
+	.projects {
+		width: 950px;
+	}
 }
 
 @media screen and (max-width: 570px) {
