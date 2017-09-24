@@ -116,14 +116,10 @@ header {
 }
 
 @media screen and (min-width: 1000px) {
-	header {
-		max-width: 1000px;
-	}
-	.page_content {
-		max-width: 950px;
-	}
-	.projects {
-		width: 950px;
+	.main_container {
+		width: 1000px;
+		margin-right: auto;
+		margin-left: auto;
 	}
 }
 
@@ -139,6 +135,14 @@ header {
 }
 
 @media screen and (max-width: 470px) {
+	.whois {
+		margin-right: 1.5em;
+	}
+
+	.logo {
+		margin-left: 1.5em;
+	}
+
 	.whois > p {
 		width: 150px;
 		word-wrap: normal;
