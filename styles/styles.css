@@ -59,6 +59,7 @@ header {
 	height: 300px;
 	margin: 15px 0;
 	background-image: url("../imgs/main_project.jpg");
+	background-position: top;
 	background-size: cover;
 }
 
